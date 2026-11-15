@@ -1,4 +1,0 @@
-# Embedding step (on top of the ingestion requirements in ../requirements.txt)
-#   pip install -r requirements.txt -r embeddings/requirements.txt
-google-genai>=1.0
-chromadb>=1.0

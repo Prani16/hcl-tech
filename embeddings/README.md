@@ -13,7 +13,7 @@ This step comes after the ingestion pipeline (`pipeline.py`) and doesn't change 
 ## Build
 
 ```bash
-pip install -r requirements.txt -r embeddings/requirements.txt
+pip install -r requirements.txt
 echo "GEMINI_API_KEY=your-key" > .env        # .env is already gitignored
 python embed.py                               # data/ -> chroma_db/
 python embed.py --query "Is FIR registration mandatory?"   # sanity check

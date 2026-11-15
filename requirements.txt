@@ -20,3 +20,8 @@ tiktoken>=0.7
 # code and the config files use only Python's standard library.
 
 # --- Not needed for ingestion: no API keys, no GPU, no database.
+
+# --- Embeddings + vector store: embed.py, embeddings/
+# Needs GEMINI_API_KEY in a .env file in the repo root (see embeddings/README.md).
+google-genai>=1.0
+chromadb>=1.0

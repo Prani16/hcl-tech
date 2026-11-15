@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+chunks.jsonl
+.env
+.vscode/

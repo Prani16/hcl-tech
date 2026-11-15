@@ -1,0 +1,30 @@
+{
+  "built_at": "2026-11-15T13:24:19+00:00",
+  "embedding_model": "gemini-embedding-001",
+  "dimensions": 768,
+  "document_task_type": "RETRIEVAL_DOCUMENT",
+  "query_task_type": "RETRIEVAL_QUERY",
+  "collection": "police_complaints",
+  "distance": "cosine",
+  "chunk_count": 48,
+  "sources": [
+    "01_lalita_kumari_fir_guidelines.pdf",
+    "02_prakash_singh_police_reform_directives.pdf",
+    "03_nhrc_spot_enquiry_handbook_notes.pdf",
+    "04_nhrc_custodial_death_reporting.html",
+    "05_police_complaints_authority_india.html",
+    "06_dk_basu_arrest_guidelines.html",
+    "07_bnss_section_173_fir.md",
+    "08_zero_fir_sop.md",
+    "09_first_information_report_basics.txt",
+    "10_lok_sabha_q2277_police_complaints_authority.txt"
+  ],
+  "chunker": {
+    "tokenizer": "cl100k_base",
+    "target_tokens": 400,
+    "overlap_ratio": 0.15,
+    "min_tokens": 80
+  },
+  "embedded_text": "Chunk.embedding_text() = 'title > section' header + chunk text",
+  "fake_embeddings": false
+}
